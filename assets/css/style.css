@@ -6,7 +6,7 @@
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  color: #1c3f5c;
+  color: var(--tertiary-color);
 }
 
 * {
@@ -14,6 +14,8 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Navigation */
 
 header {
   padding: 25px 0;
@@ -44,7 +46,7 @@ header nav ul {
   list-style: none;
 }
 
-header nav{
+header nav {
   margin: 10px;
 }
 
@@ -55,3 +57,28 @@ header nav ul li a {
   border-bottom: 3px solid var(--secondary-color);
   font-size: 1.5rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+section{
+  padding: 100px;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url("../images/hero\ image.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 250px;
+}
+
+.hero h3 {
+  font-size: 30px;
+  background-color: var(--secondary-color);
+  position:relative;
+  bottom: -120px;
+  padding: 8px 15px;
+}
