@@ -3,7 +3,7 @@
 ## Description
 My portfolio that displays my work.
 
-![image](benjaminrecinos/portfolio/blob/master/assets/images/portfolio.JPG)
+![](assets/images/portfolio.JPG)
 
 ### Project Link
 https://benjaminrecinos.github.io/portfolio/
